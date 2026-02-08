@@ -17,7 +17,7 @@ site_name = "Documentation"
 # meaningful description of the site content for use by search engines.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_description
-site_description = "A new project generated from the default template project."
+site_description = "Company documentation for InfiNet SolutionsPH"
 
 # The site_author attribute. This is used in the HTML head element.
 #
@@ -37,17 +37,23 @@ copyright = """
 Copyright &copy; 2026 ELEISS OPC
 """
 
-# Zensical supports both implicit navigation and explicitly defined navigation.
+nav = [
+    { "Home" = "index.md" },
+    { "KapitWifi" = [
+        "kapitwifi/index.md",
+    ] },
+    { "Project Implementation" = [
+        "implementation/index.md",
+        "implementation/requirements.md",
+        "implementation/network.md",
+    ] },
+] # Zensical supports both implicit navigation and explicitly defined navigation.
 # If you decide not to define a navigation here then Zensical will simply
 # derive the navigation structure from the directory structure of your
 # "docs_dir". The definition below demonstrates how a navigation structure
 # can be defined using TOML syntax.
 #
 # Read more: https://zensical.org/docs/setup/navigation/
-# nav = [
-#   { "Get started" = "index.md" },
-#   { "Markdown in 5min" = "markdown.md" },
-# ]
 
 # With the "extra_css" option you can add your own CSS styling to customize
 # your Zensical project according to your needs. You can add any number of
@@ -83,7 +89,7 @@ Copyright &copy; 2026 ELEISS OPC
 # Read more:
 # - https://zensical.org/docs/customization/#extending-the-theme
 #
-#custom_dir = "overrides"
+custom_dir = "overrides"
 
 # With the "favicon" option you can set your own image to use as the icon
 # browsers will use in the browser title bar or tab bar. The path provided
@@ -93,7 +99,8 @@ Copyright &copy; 2026 ELEISS OPC
 # - https://zensical.org/docs/setup/logo-and-icons/#favicon
 # - https://developer.mozilla.org/en-US/docs/Glossary/Favicon
 #
-#favicon = "images/favicon.png"
+favicon = "images/favicon.png"
+logo = "images/favicon.png"
 
 # Zensical supports more than 60 different languages. This means that the
 # labels and tooltips that Zensical's templates produce are translated.
@@ -259,11 +266,15 @@ features = [
 # ----------------------------------------------------------------------------
 [[project.theme.palette]]
 scheme = "default"
+primary = "indigo"
+accent = "deep orange"
 toggle.icon = "lucide/sun"
 toggle.name = "Switch to dark mode"
 
 [[project.theme.palette]]
 scheme = "slate"
+primary = "indigo"
+accent = "deep orange"
 toggle.icon = "lucide/moon"
 toggle.name = "Switch to light mode"
 
@@ -302,5 +313,3 @@ toggle.name = "Switch to light mode"
 #[[project.extra.social]]
 #icon = "fontawesome/brands/github"
 #link = "https://github.com/user/repo"
-
-
