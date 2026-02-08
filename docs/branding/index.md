@@ -22,7 +22,7 @@ The assets on display here can be downloaded as is by right clicking on the sele
 
 ### Colored Icons
 
-Colored icons can go with light or dark themes, and is used to identify the project.
+Colored icons can go with light or dark themes, and is used to identify the company.
 
 === "Logo & Favicon"
 
