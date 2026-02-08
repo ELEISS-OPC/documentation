@@ -47,6 +47,9 @@ nav = [
         "implementation/requirements.md",
         "implementation/network.md",
     ] },
+    { "Branding" = [
+        "branding/index.md",
+    ] },
 ] # Zensical supports both implicit navigation and explicitly defined navigation.
 # If you decide not to define a navigation here then Zensical will simply
 # derive the navigation structure from the directory structure of your
@@ -63,7 +66,7 @@ nav = [
 #
 # Read more: https://zensical.org/docs/customization/#additional-css
 #
-#extra_css = ["stylesheets/extra.css"]
+extra_css = ["stylesheets/extra.css"]
 
 # With the `extra_javascript` option you can add your own JavaScript to your
 # project to customize the behavior according to your needs.

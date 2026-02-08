@@ -1,0 +1,20 @@
+/* Used for Branding */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1em;
+}
+
+.light-container {
+  background-color: #ffffff;
+  color: hsl(0, 0%, 0%);
+}
+
+.dark-container {
+  background-color: hsl(0, 0%, 0%);
+  color: #ffffff;
+}
+/* Used for Branding */
