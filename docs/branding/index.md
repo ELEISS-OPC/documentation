@@ -9,12 +9,13 @@ This page discusses InfiNet SolutionsPH's brand and theme. Changes and suggestio
 
 ## Theme
 
-The colors listed here are the significant choices we have made to represent InfiNet SolutionsPH. 
+The colors listed here are the significant choices we have made to represent InfiNet SolutionsPH.
 
-| Domain | Variant   | Hex       | oklch | TailwindCSS |
-| ------ | --------- | --------- | ----- | ----------- |
-| Logo   | Primary   | `#ED2024` |       |             |
-| Logo   | Secondary | `#293475` |       |             |
+| Domain | Variant   | Hex          | Patch                                                                                                   |
+| ------ | --------- | --------------------- | ------------------------------------------------------------------------------------------------------- |
+| Logo   | Primary   | `#F89D2A` - `#ED1F24` | ![](https://singlecolorimage.com/get/F89D2A/24x24) - ![](https://singlecolorimage.com/get/ED1F24/24x24) |
+| Logo   | Secondary | `#4369BA` - `#273070` | ![](https://singlecolorimage.com/get/4369BA/24x24) - ![](https://singlecolorimage.com/get/273070/24x24) |
+| UI | Border | `#855618` | ![](https://singlecolorimage.com/get/855618/24x24)
 
 ## Icons and Other Assets
 
@@ -29,7 +30,6 @@ Colored icons can go with light or dark themes, and is used to identify the comp
     <div class="container">
         <img src="https://github.com/ELEISS-OPC/assets/blob/master/assets/logo/infinet-no-base-1280x1280.png?raw=true" width="200">
     </div>
-
 
 ### Flat Icons
 
