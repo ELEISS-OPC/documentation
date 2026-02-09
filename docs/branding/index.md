@@ -46,7 +46,7 @@ These icons are flat versions of the colored logos, often used in a minimalist d
         </div>
     </div>
 
-=== "Logo (Black & White)"
+=== "Logo (Grayscale)"
 
     <div class="container">
         <img src="https://github.com/ELEISS-OPC/assets/blob/master/assets/logo/infinet-no-base-bw-1280x1280.png?raw=true" width="200">
