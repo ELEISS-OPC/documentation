@@ -7,6 +7,13 @@ hide:
 
 This page discusses InfiNet SolutionsPH's brand and theme. Changes and suggestions are welcome regarding everything about branding and theming. Should you wish to suggest branding changes, please write it [here](https://github.com/ELEISS-OPC/assets/issues/new).
 
+## Slogans
+
+At our company, we have **one main slogan and a sub-slogan**: 
+
+1. Bridging the Digital Divide with Affordable Wi-Fi. 
+2. We deliver affordable and dependable Wi-Fi to underserved areas, empowering communities to connect, learn, and grow through innovative technology and partnerships
+
 ## Theme
 
 The colors listed here are the significant choices we have made to represent InfiNet SolutionsPH.
