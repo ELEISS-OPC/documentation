@@ -47,6 +47,19 @@ nav = [
         "implementation/requirements.md",
         "implementation/network.md",
     ] },
+    { "Development" = [
+        "development/index.md",
+        { "Wordpress" = "development/wordpress.md" },
+        { "Internal Tooling" = "development/internal-tooling.md" },
+        { "Developer Operations" = [
+            { "Issues" = "development/developer-operations/issues.md" },
+            { "Documentation" = "development/developer-operations/documentation.md" },
+        ] },
+        { "Artifacts" = [
+            { "Style Guides" = "development/artifacts/style-guides.md" },
+            { "Architecture Decision Records" = "development/artifacts/architecture-decision-records.md" },
+        ] },
+    ] },
     { "Branding" = [
         "branding/index.md",
     ] },
