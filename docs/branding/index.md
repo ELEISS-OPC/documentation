@@ -9,20 +9,21 @@ This page discusses InfiNet SolutionsPH's brand and theme. Changes and suggestio
 
 ## Slogans
 
-At our company, we have **one main slogan and a sub-slogan**: 
+At our company, we have **one main slogan and a sub-slogan**:
 
-1. Bridging the Digital Divide with Affordable Wi-Fi. 
+1. Bridging the Digital Divide with Affordable Wi-Fi.
 2. We deliver affordable and dependable Wi-Fi to underserved areas, empowering communities to connect, learn, and grow through innovative technology and partnerships
 
 ## Theme
 
 The colors listed here are the significant choices we have made to represent InfiNet SolutionsPH.
 
-| Domain | Variant   | Hex          | Patch                                                                                                   |
-| ------ | --------- | --------------------- | ------------------------------------------------------------------------------------------------------- |
+| Domain | Variant   | Hex                   | Patch                                                                                                   | okclh | TailwindCSS |
+| ------ | --------- | --------------------- | ------------------------------------------------------------------------------------------------------- | ----- | ----------- |
 | Logo   | Primary   | `#F89D2A` - `#ED1F24` | ![](https://singlecolorimage.com/get/F89D2A/24x24) - ![](https://singlecolorimage.com/get/ED1F24/24x24) |
 | Logo   | Secondary | `#4369BA` - `#273070` | ![](https://singlecolorimage.com/get/4369BA/24x24) - ![](https://singlecolorimage.com/get/273070/24x24) |
-| UI | Border | `#855618` | ![](https://singlecolorimage.com/get/855618/24x24)
+| UI     | Primary   | `#ff6900`             | ![](https://singlecolorimage.com/get/ff6900/24x24)                                                      | `oklch(70.5% 0.213 47.604)` | `orange-500`
+| UI     | Secondary | `#2b7fff`             | ![](https://singlecolorimage.com/get/2b7fff/24x24)                                                      | `oklch(62.3% 0.214 259.815)` | `blue-500`
 
 ## Icons and Other Assets
 
