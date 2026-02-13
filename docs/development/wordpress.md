@@ -168,6 +168,10 @@ The easiest way of inserting an icon is by using an HTML block, and inserting th
 
 ##### Class based
 
+!!! warning
+
+    This method requires administrator access to the theme settings
+
 The following is a generic CSS icon class using the data URL of a Lucide icon.
 
 ```css
