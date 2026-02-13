@@ -55,9 +55,7 @@ volumes:
 
 We use the [SaaS Startup theme](https://wordpress.com/theme/saas-startup?tab_filter=all) as a base theme and extend and edit the theme from there. An in-depth styling and theming documentation is found [here](../branding/index.md).
 
-### Lucide
-
-We use [Lucide](https://lucide.dev/) for UI icons.
+### Additional CSS
 
 The following CSS is our `Additional CSS`.
 
@@ -78,6 +76,76 @@ The following CSS is our `Additional CSS`.
   background-color: currentColor;
 }
 ```
+
+#### Theme
+
+```css
+
+:root {
+  --primary: oklch(70.5% 0.213 47.604); /* orange-500 */
+  --secondary: oklch(62.3% 0.214 259.815); /* blue-500 */
+}
+
+/* PRIMARY */
+.bg-primary { background-color: oklch(95.4% 0.038 75.164); } /* orange-100 */
+.text-primary-foreground { color: var(--primary) }
+.stroke-primary-foreground { stroke: var(--primary) }
+.border-primary { border-color: var(--primary) }
+
+/* SECONDARY */
+.bg-secondary { background-color: oklch(93.2% 0.032 255.585); } /* blue-100 */
+.text-secondary-foreground { color: var(--secondary); }
+.stroke-secondary-foreground { stroke: var(--secondary); }
+.border-secondary { border-color: var(--secondary); }
+
+/* NEUTRAL */
+.bg-background { background-color: #ffffff; }
+.text-foreground { color: #000000; }
+.bg-card { background-color: oklch(97% 0.001 106.424); } /* stone-100 */
+.text-card-foreground { color: #000000; }
+.bg-popover { background-color: #ffffff; }
+.text-popover-foreground { color: #000000; }
+
+/* MUTED */
+.bg-muted { background-color: oklch(97% 0 0); } /* neutral-100 */
+.text-muted-foreground { color: oklch(70.8% 0 0); } /* neutral-400 */
+.stroke-muted-foreground { stroke: oklch(70.8% 0 0); } /* neutral-400 */
+.border-muted { border-color: oklch(92.2% 0 0); } /* neutral-200 */
+
+/* SUCCESS Admonition */
+.bg-destructive { background-color: oklch(93.6% 0.032 17.717); } /* red-100 */
+.text-destructive-foreground { color: oklch(57.7% 0.245 27.325); } /* red-600 */
+.stroke-destructive-foreground { stroke: oklch(57.7% 0.245 27.325); } /* red-600 */
+.border-destructive { border-color: oklch(70.4% 0.191 22.216); } /* red-400 */
+
+/* SUCCESS Admonition */
+.bg-success { background-color: oklch(96.2% 0.044 156.743); } /* green-100 */
+.text-success-foreground { color: oklch(62.7% 0.194 149.214); } /* green-600 */
+.stroke-success-foreground { stroke: oklch(62.7% 0.194 149.214); } /* green-600 */
+.border-success { border-color: oklch(79.2% 0.209 151.711); } /* green-400 */
+
+/* WARNING Admonition */
+.bg-warning { background-color: oklch(95.4% 0.038 75.164); } /* orange-100 */
+.text-warning-foreground { color: oklch(57.7% 0.245 27.325); } /* orange-600 */
+.stroke-warning-foreground { stroke: oklch(57.7% 0.245 27.325); } /* orange-600 */
+.border-warning { border-color: oklch(70.4% 0.191 22.216); } /* orange-400 */
+
+/* INFO Admonition */
+.bg-info { background-color: oklch(93.2% 0.032 255.585); } /* blue-100 */
+.text-info-foreground { color: oklch(54.6% 0.245 262.881); } /* blue-600 */
+.stroke-info-foreground { stroke: oklch(54.6% 0.245 262.881); } /* blue-600 */
+.border-info { border-color: oklch(70.7% 0.165 254.624); } /* blue-400 */   
+
+/* TIP Admonition */
+.bg-tip { background-color: oklch(95.3% 0.051 180.801); } /* teal-100 */
+.text-tip-foreground { color: oklch(60% 0.118 184.704); } /* teal-600 */
+.stroke-tip-foreground { stroke: oklch(60% 0.118 184.704); } /* teal-600 */
+.border-tip { border-color: oklch(77.7% 0.152 181.912); } /* teal-400 */
+```
+
+### Lucide
+
+We use [Lucide](https://lucide.dev/) for UI icons.
 
 #### Adding a new icon
 
