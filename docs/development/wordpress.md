@@ -53,7 +53,7 @@ volumes:
 
 ## User Interface
 
-We use the [Astra theme with the Galatic Template](https://wpastra.com/templates/galatic-02/) as a base theme and extend and edit the theme from there. An in-depth branding documentation is found [here](../branding/index.md).
+We use the [Astra theme with the Galatic Template](https://wpastra.com/templates/galatic-02/) as a base theme and extend and edit the theme from there. An in-depth branding documentation is found [here](../branding/index.md). We also use [Elementor](https://elementor.com/) build websites faster by using various built-in features and elements for free.
 
 ### Additional CSS
 
@@ -70,14 +70,25 @@ The following CSS is our `Additional CSS`.
 }
 
 /* Base Lucide Style */
-.lucide {
+.lucide-base {
+  min-width: 1.2em;
+  min-height: 1.2em;
   width: 1.2em;
   height: 1.2em;
   background-color: currentColor;
 }
+
+/* Hide the Title in websites that use Elementor */
+h1.entry-title {
+  display: none;
+}
 ```
 
 #### Theme
+
+We use [WindPress](https://wind.press/) for [TailwindCSS](https://tailwindcss.com/) integration.
+
+The following CSS is a class based styling for various elements specifically for the [branding](../branding/index.md) theme of the company.
 
 ```css
 
@@ -143,13 +154,16 @@ The following CSS is our `Additional CSS`.
 .border-tip { border-color: oklch(77.7% 0.152 181.912); } /* teal-400 */
 ```
 
-### Lucide
+### Icons
 
-We use [Lucide](https://lucide.dev/) for UI icons.
+We use [Lucide](https://lucide.dev/) for UI icons. However, Elementor integrates freemium [Font Awesome](https://fontawesome.com/) icons by default so you can also choose from there.
 
-#### Adding a new icon
+#### Manually adding an icon
 
-We can add a new icon to accompany buttons or to help important text standout more.
+We can manually add a new icon to accompany buttons or to help important text standout more.
+
+##### Class based
+
 The following is a generic CSS icon class using the data URL of a Lucide icon.
 
 ```css
@@ -158,6 +172,7 @@ The following is a generic CSS icon class using the data URL of a Lucide icon.
   mask-size: contain;
 }
 ```
+
 
 Simply replace the `mask: url("...")` value with the data URL of your chosen icon then add this class to `Additional CSS`.
 Then use both the `lucide` and `.icon-generic` class in an empty `div`'s class attribute.
