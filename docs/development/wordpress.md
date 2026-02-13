@@ -53,7 +53,7 @@ volumes:
 
 ## User Interface
 
-We use the [SaaS Startup theme](https://wordpress.com/theme/saas-startup?tab_filter=all) as a base theme and extend and edit the theme from there. An in-depth styling and theming documentation is found [here](../branding/index.md).
+We use the [Astra theme with the Galatic Template](https://wpastra.com/templates/galatic-02/) as a base theme and extend and edit the theme from there. An in-depth branding documentation is found [here](../branding/index.md).
 
 ### Additional CSS
 
