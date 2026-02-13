@@ -162,6 +162,10 @@ We use [Lucide](https://lucide.dev/) for UI icons. However, Elementor integrates
 
 We can manually add a new icon to accompany buttons or to help important text standout more.
 
+##### Using an SVG
+
+The easiest way of inserting an icon is by using an HTML block, and inserting the SVG from there. Be mindful of the element classes, stroke color, and fill color as they are what often causes visual error or the icon might not look right.
+
 ##### Class based
 
 The following is a generic CSS icon class using the data URL of a Lucide icon.
@@ -175,7 +179,7 @@ The following is a generic CSS icon class using the data URL of a Lucide icon.
 
 
 Simply replace the `mask: url("...")` value with the data URL of your chosen icon then add this class to `Additional CSS`.
-Then use both the `lucide` and `.icon-generic` class in an empty `div`'s class attribute.
+Then use both the `lucide-base` and `.icon-generic` class in an empty `div`'s class attribute.
 
 !!! example "Demonstration"
 
