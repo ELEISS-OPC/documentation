@@ -166,7 +166,7 @@ We can manually add a new icon to accompany buttons or to help important text st
 
 The easiest way of inserting an icon is by using an HTML block, and inserting the SVG from there. Be mindful of the element classes, stroke color, and fill color as they are what often causes visual error or the icon might not look right.
 
-However, it may be impossible to use an SVG block within buttons as capabilities of button editing are limited. You may instead use the builtin Font Awesome integration or ask an administrator to place/upload an administrator for you. 
+However, it may be impossible to use an SVG block within buttons as capabilities of button editing are limited. You may instead use the built-in Font Awesome integration or ask an administrator to place/upload an SVG image for you. 
 
 ##### Class based
 
