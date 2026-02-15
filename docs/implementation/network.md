@@ -39,7 +39,7 @@ The code has 11 elements which concern with 11 types of information and these ar
 
     `PHL-MND-R10-MOR-CGY-NZR-21ST-MHB-CTR-000-SQM` which stands for Philippines, Mindanao, Region 10, Misamis Oriental, Cagayan de Oro City, Nazareth, 21st Street, Main Hub, Center, 0 meters distance, square meters.
 
-## Diagram
+## Diagrams
 
 <!-- TODO: Add a reference to this schematic -->
 
@@ -56,3 +56,12 @@ To expand the network, we need to install access points throughout the network t
 However, we will need a specific type of access points. These access points in particular are [Omada devices](https://www.omadanetworks.com/), which is a set of products by TP-Link. Omada devices' selling point is a focus on the approach of [software-defined networking](https://en.wikipedia.org/wiki/Software-defined_networking). An approach where control and configuration of network devices is centralized using remote controllers.
 
 Omada controllers will have [no control over non-omada devices](https://community.tp-link.com/en/business/forum/topic/599760). Omada devices should only be used with KapitWifi, as they have also specified in their [official tutorial](../kapitwifi/index.md#kapitwifi)
+
+
+### Power Usage
+
+The power consumption of access points is important to measure in order to accurately calculate overall network costs. The Omada devices we use require [Power over Ethernet (PoE)](https://en.wikipedia.org/wiki/Power_over_Ethernet) to operate.
+
+![PoE adapter](../images/network/poe-adapter.jpg)
+
+This particular [PoE adapter/media converter](https://www.omadanetworks.com/ph/business-networking/omada-accessory-media-converter/mc211cs-2/) is used for the Omada access point included in the [KapitWifi full package](https://kapitwifi.ph/store). It delivers up to [6 watts](https://en.wikipedia.org/wiki/Watt) ([0.006 kWh](https://www.power-sonic.com/kw-vs-kwh-explained/)) of power. Actual electricity costs depend on the geographic region and the local electricity provider, total operating expenses may vary.
