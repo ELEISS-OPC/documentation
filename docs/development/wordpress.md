@@ -8,48 +8,9 @@ Developing locally is great and efficient way of building websites, but due to t
 
 ### Docker Compose
 
-We mainly use the [Docker Engine](https://docs.docker.com/engine/install) with [Docker Compose](https://docs.docker.com/compose/install/) for local development. The following `docker-compose.yml` file uses [Wordpress](https://hub.docker.com/_/wordpress) and [MySQL](https://hub.docker.com/_/mysql) docker images.
+We mainly use the [Docker Engine](https://docs.docker.com/engine/install) with [Docker Compose](https://docs.docker.com/compose/install/) for local development. 
 
-```yaml title="docker-compose.yml"
-services:
-  wordpress:
-    image: wordpress
-    restart: always
-    ports:
-      - 8081:80 #  Access Wordpress at http://localhost:8081.
-        #  Change 8081 to a different port if needed.
-    environment:
-      WORDPRESS_DB_HOST: db # Change these credentials for security purposes
-      WORDPRESS_DB_USER: exampleuser
-      WORDPRESS_DB_PASSWORD: examplepass
-      WORDPRESS_DB_NAME: exampledb
-    volumes:
-      - wordpress:/var/www/html
-
-  db:
-    image: mysql:8.0
-    restart: always
-    environment:
-      MYSQL_DATABASE: exampledb # Change these credentials for security purposes
-      MYSQL_USER: exampleuser
-      MYSQL_PASSWORD: examplepass
-      MYSQL_RANDOM_ROOT_PASSWORD: "1"
-    volumes:
-      - db:/var/lib/mysql
-
-volumes:
-  wordpress:
-  db:
-```
-
-!!! example "Usage Example"
-
-    ```bash title="Command Line"
-    docker compose up -d
-    ```
-
-    Make sure that the `docker-compose.yml` file is in the same working directory when composing up.
-    Composing up builds and runs the containers. Once finished building and everything is healthy, Wordpress should be accessible at `http://localhost:8081`
+We follow this comprehensive [repository](https://github.com/nezhar/wordpress-docker-compose) to locally develop a Wordpress website. Make sure to clone it and place it in an appropriate working directory. It is a must to read the sections Configuration, Installation and Usage (Starting/Stopping containers) in its `README.md` tutorial. The repository uses [Wordpress](https://hub.docker.com/_/wordpress), [MySQL](https://hub.docker.com/_/mysql) and [phpMyAdmin](https://hub.docker.com/_/phpmyadmin) docker images.
 
 ## User Interface
 
