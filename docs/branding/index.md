@@ -39,6 +39,19 @@ Colored icons can go with light or dark themes, and is used to identify the comp
         <img src="https://github.com/ELEISS-OPC/assets/blob/master/assets/logo/infinet-no-base-1280x1280.png?raw=true" width="200">
     </div>
 
+=== "Typography"
+
+    <div class="container">
+        <img src="https://github.com/ELEISS-OPC/assets/blob/master/assets/typography/typography.png?raw=true" width="600">
+    </div>
+
+=== "Typography (Gradient)"
+
+    <div class="container">
+        <img src="https://github.com/ELEISS-OPC/assets/blob/master/assets/typography/typography-gradient.png?raw=true" width="600">
+    </div>
+
+
 ### Flat Icons
 
 These icons are flat versions of the colored logos, often used in a minimalist designs, with support for dark and light themes.
