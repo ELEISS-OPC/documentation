@@ -2,9 +2,15 @@
 
 We use Wordpress to host the [company landing page](https://infinetsolutionsph.com/).
 
+## Developing on GreenGeeks
+
+This is the preferred approach to developing the company website. We use [GreenGeeks](https://www.greengeeks.com/) as our Wordpress provider and host.
+
+We continously develop on the staging website https://test.infinetsolutionsph.com. This makes remote and synchronous collaboration easy. Be sure to back up the production website https://infinetsolutionsph.com when migrating/importing changes from the staging website. Learn about backups by reading the [relevant documentation](#backups--migrations).
+
 ## Developing locally
 
-Developing locally is great and efficient way of building websites, but due to the nature of Wordpress, remote collaboration capabilities is limited.
+Developing locally is great and an efficient way of building websites, but due to the nature of Wordpress, remote collaboration capabilities is limited.
 
 ### Docker Compose
 
