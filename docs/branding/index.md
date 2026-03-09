@@ -55,7 +55,7 @@ Colored icons can go with light or dark themes, and is used to identify the comp
 ### Flat Icons
 
 These icons are flat versions of the colored logos, often used in a minimalist designs, with support for dark and light themes.
-
+    
 === "Logo"
 
     <div class="container">
@@ -72,3 +72,51 @@ These icons are flat versions of the colored logos, often used in a minimalist d
     <div class="container">
         <img src="https://github.com/ELEISS-OPC/assets/blob/master/assets/logo/infinet-no-base-bw-1280x1280.png?raw=true" width="200">
     </div>
+
+## Logo Philosophy
+
+The logo visually represents connectivity, unity, and continuous digital flow—the core identity of InfiNet Solutions PH as a telecommunications and internet service provider committed to bridging communities through technology.
+
+It combines the symbolism of WiFi, circular networks, and collaboration, all integrated into a modern, dynamic mark.
+
+### Breakdown
+
+#### Circular Shape (Outer Ring)
+
+The circle signifies global connection, inclusivity, and unlimited possibilities.
+It reflects the company’s mission to create connected communities across the Philippines, regardless of distance or economic status.
+The ring’s segmented structure portrays network nodes, suggesting coverage expansion and scalable infrastructure.
+
+#### Tri-Segment Inner Arms
+
+Three curved, interlocking shapes form the core of the logo. These represent:
+
+- Connectivity – the interconnected nature of digital networks
+- Collaboration – teamwork among clients, communities, and the company
+- Continuity – the nonstop flow of information and the company’s commitment to reliable uptime
+
+\Together, they form a dynamic motion, symbolizing continuous improvement, agility, and innovation.
+
+#### Central Dot
+
+This is the core hub or "central node". It symbolizes:
+
+- The customer at the center of the company’s operations
+- The main access point of connectivity
+- A strong, stable signal source
+
+### Color Psychology
+
+The seamless blending of warm and cool tones signifies: 
+
+- Balance between innovation and reliability
+- Smooth, uninterrupted service
+- Harmonious connection between people and technology
+
+#### Orange–Red Gradient
+
+Represents energy, speed, and innovation. Communicates passion, leadership, and a forward-thinking mindset. Highlights the company’s objective to bring fast and dependable internet to underserved areas.
+
+#### Blue Gradient
+
+Emphasizes trust, stability, and reliability. A staple color in telecommunications, it reassures users of secure and dependable service. Blue balances the energy of orange with professionalism and calmness.
