@@ -46,6 +46,7 @@ nav = [
         "implementation/index.md",
         "implementation/requirements.md",
         "implementation/network.md",
+        "implementation/configuration.md",
     ] },
     { "Development" = [
         "development/index.md",
