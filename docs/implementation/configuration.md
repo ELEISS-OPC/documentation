@@ -46,3 +46,7 @@ PCQs are used for dynamically distributing bandwidth for each connected client. 
 ??? tip "Recommended Watch"
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/JKeyrecL3uc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Limiting Connections
+
+Setting connection limits can be done in `IP > Firewall`, set `Chain` to `forward` then set your source IPv4 address. In the `Advanced` tab, set the `Connection Rate` as the connection limit for your use case.
