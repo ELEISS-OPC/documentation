@@ -50,3 +50,5 @@ PCQs are used for dynamically distributing bandwidth for each connected client. 
 ## Limiting Connections
 
 Setting connection limits can be done in `IP > Firewall`, set `Chain` to `forward` then set your source IPv4 address. In the `Advanced` tab, set the `Connection Rate` as the connection limit for your use case. In the `Action` tab, set the `Action` to `drop`.
+
+See this [forum thread](https://forum.mikrotik.com/t/limit-number-connections-per-destination-host-ip/153092) for reference
