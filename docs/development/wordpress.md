@@ -342,7 +342,7 @@ To migrate a Wordpress instance, simply export a backup file of the source Wordp
 
 ## Voucher Vendors Locator
 
-This section discusses how to maintain the Leaflet voucher vendor locator feature of the Wordpress. Main maintenance tasks outlined are:
+This section discusses how to maintain the Leaflet voucher vendor locator feature of the Wordpress website. Main maintenance tasks outlined are:
 
 1. How to add a vendor using [QGIS](https://qgis.org/)
 
@@ -360,7 +360,7 @@ We use QGIS to easily add vendors on the map.
     
     3) Import the file `voucher-stores.geojson` into the `Layers` panel. You can do this easily with Drag & Drop.
 
-=== "Step 4-5"
+=== "Step 4-8"
 
     4) Using the MapTiler QGIS plugin, click `Browser Panel > MapTiler > OpenStreetMap` to load the [OpenStreetMap](https://www.openstreetmap.org/) map tileset.
 
