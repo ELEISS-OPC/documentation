@@ -339,3 +339,45 @@ Importing a backup is used for restoring Wordpress from a backup file.
 ### Migrating Wordpress
 
 To migrate a Wordpress instance, simply export a backup file of the source Wordpress instance, then import that backup file into the target Wordpress instance. Read the relevant documentation for [exporting](#exporting-a-backup) and [importing](#importing-a-backup) backups to learn more.
+
+## Voucher Vendors Locator
+
+This section discusses how to maintain the Leaflet voucher vendor locator feature of the Wordpress. Main maintenance tasks outlined are:
+
+1. How to add a vendor using [QGIS](https://qgis.org/)
+
+### Adding Vendors
+
+#### Plotting in QGIS
+
+We use QGIS to easily add vendors on the map.
+
+=== "Step 1-3"
+
+    1) Clone the [landing-page repository](https://github.com/ELEISS-OPC/landing-page).
+    
+    2) Open a new project in QGIS.
+    
+    3) Import the file `voucher-stores.geojson` into the `Layers` panel. You can do this easily with Drag & Drop.
+
+=== "Step 4-5"
+
+    4) Using the MapTiler QGIS plugin, click `Browser Panel > MapTiler > OpenStreetMap` to load the [OpenStreetMap](https://www.openstreetmap.org/) map tileset.
+
+    5) With the `voucher-stores` layer selected, click `Toggle Editing`.
+
+    6) Then click `Add Point Feature` to begin adding vendors on the map as point features.
+
+    7) Click on the map where the vendor is located.
+
+    8) Input the necessary metadata.
+
+=== "Step 9-10"
+
+    9) Click `Save Layer Edits` to save the new point feature(s) added to the layer.
+
+    10) Make sure to commit and push the changes you've made in the landing-page repository.
+
+#### Updating the Wordpress map
+
+Once you're done plotting in QGIS, upload the updated `vendor-stores.geojson` and replace the old one in the Wordpress media library.
