@@ -79,6 +79,8 @@ The logo visually represents connectivity, unity, and continuous digital flow—
 
 It combines the symbolism of WiFi, circular networks, and collaboration, all integrated into a modern, dynamic mark.
 
+We also have a separate [company profile](https://raw.githubusercontent.com/ELEISS-OPC/assets/refs/heads/master/assets/artifacts/Profile-Company.pdf) in PDF format.
+
 ### Breakdown
 
 #### Circular Shape (Outer Ring)
